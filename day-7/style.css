@@ -1,0 +1,48 @@
+
+    body{
+        font-family: Arial, sans-serif;
+    }
+
+    input{
+        background-color: lightblue;
+        border: 2px solid blue;
+        border-radius: 5px;
+        padding: 8px;
+    }
+
+    textarea{
+        background-image: url(../projects/images/Poster.jpeg);
+        border: 2px solid orange;
+        border-radius: 5px;
+        padding: 8px;
+    }
+
+    h3{
+        .alien-block-regular {
+        font-family: "Alien Block", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        }
+
+    }
+
+    p{
+        
+        alien-block-regular {
+        font-family: "Alien Block", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        }
+          
+    }
+
+    .icons {
+        text-align:center;
+        margin-top:30px;
+        font-size:35px;
+    }
+
+    .icons i{
+        margin:10px;
+        color:aquamarine
+    }

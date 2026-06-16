@@ -1,0 +1,13 @@
+body{
+    background-color:black;
+}
+
+#heading{
+    color:red;
+    text-align:center;
+}
+
+.info{
+    color:white;
+    font-size:20px;
+}
