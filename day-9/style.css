@@ -1,0 +1,17 @@
+header{
+    background-color: aqua;
+}
+
+
+.main-heading{
+    background-color: aqua;
+    text-align:center;
+    padding:30px 20px;
+}
+
+nav{
+    text-align:center;
+    background-color: aqua;
+    padding: 10px;
+}
+

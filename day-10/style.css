@@ -1,0 +1,55 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+}
+
+.navbar {
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;                  /* Tells it where to stick */
+  z-index: 1000;           /* Ensures it stays on top of other content */
+  
+  /* Styling */
+  background-color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+/* Navbar Styling Links */
+.logo {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.nav-links a:hover {
+  color: #ffd700;
+}
+
+/* Dummy content to allow scrolling */
+.content {
+  padding: 2rem;
+  height: 2000px; 
+  background: linear-gradient(to bottom, #f9f9f9, #ddd);
+}
